@@ -8,4 +8,4 @@ As written in paper [Grid Long Short-Term Memory](https://arxiv.org/abs/1507.015
 
 Working example on 10 bit input strings :
 
-	PATH=/usr/local/cuda-8.0-cudnn-4.0/bin:$PATH THEANO_FLAGS="device=gpu0,floatX=float32" python main.py --bits 10 --layers 10 --hidden 1000 --batch_size 20 --learning_rate 0.06
+	python main.py --bits 10 --layers 10 --hidden 1000 --batch_size 20 --learning_rate 0.06
