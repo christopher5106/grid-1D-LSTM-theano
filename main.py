@@ -1,6 +1,5 @@
 '''
-Recurrent network example.  Trains a 1D Grid LSTM network to learn
-XOR answers.
+Trains a 1D Grid LSTM network to learn XOR answers.
 '''
 
 from __future__ import print_function
